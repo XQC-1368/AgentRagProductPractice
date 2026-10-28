@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 环境变量 / 密钥
+.env
+.env.*
+.streamlit/secrets.toml
+
+# 运行时生成的派生数据（克隆后重新索引即可生成）
+chroma_db/
+md5_hex.txt
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
